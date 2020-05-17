@@ -1,3 +1,7 @@
 private int sub(int a, int b){
+	if (a - b < interger.MIN_VAILUE) {
+		Log.info("Sum of a & b over int value");
+		return Integer.MIN_VALUE;
+	}
 	return a-b;
 }
